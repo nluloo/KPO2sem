@@ -1,0 +1,34 @@
+﻿Сборка начата 22.06.2024 02:21:21.
+Уровень детализации журнала: Normal.     1>Проект "D:\labs\kpo\1sem\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\SE_Lab14.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\SE_Lab14.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt In.cpp
+         In.cpp
+     1>D:\labs\kpo\1sem\SE_Lab14\SE_Lab14\In.cpp(23,34): warning C4244: =: преобразование "wchar_t" в "unsigned char", возможна потеря данных
+     1>D:\labs\kpo\1sem\SE_Lab14\SE_Lab14\In.cpp(36,32): warning C4244: =: преобразование "wchar_t" в "unsigned char", возможна потеря данных
+       Link:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\labs\kpo\1sem\SE_Lab14\x64\Debug\SE_Lab14.exe" /INCREMENTAL /ILK:"x64\Debug\SE_Lab14.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\labs\kpo\1sem\SE_Lab14\x64\Debug\SE_Lab14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\labs\kpo\1sem\SE_Lab14\x64\Debug\SE_Lab14.lib" /MACHINE:X64 x64\Debug\Error.obj
+         x64\Debug\In.obj
+         x64\Debug\Parm.obj
+         x64\Debug\SE_Lab14.obj
+         SE_Lab14.vcxproj -> D:\labs\kpo\1sem\SE_Lab14\x64\Debug\SE_Lab14.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\SE_Lab14.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\SE_Lab14.tlog\SE_Lab14.lastbuildstate".
+     1>Сборка проекта "D:\labs\kpo\1sem\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\labs\kpo\1sem\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\labs\kpo\1sem\SE_Lab14\SE_Lab14\In.cpp(23,34): warning C4244: =: преобразование "wchar_t" в "unsigned char", возможна потеря данных
+         D:\labs\kpo\1sem\SE_Lab14\SE_Lab14\In.cpp(36,32): warning C4244: =: преобразование "wchar_t" в "unsigned char", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.57
